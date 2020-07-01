@@ -28,6 +28,13 @@
   </nav>
   <link rel="stylesheet" href="css/style.css">
 
+  <button
+    [text]="darkMode ? 'Light Mode' : 'Dark Mode'"
+    on="tap:AMP.setState({darkMode: !darkMode})"
+  >
+    Dark Mode
+  </button>
+
   {{ partial "social.html" . }}
   {{ partial "mathjax_support.html" . }}
 </header>
