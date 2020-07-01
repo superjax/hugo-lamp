@@ -8,15 +8,6 @@
   box-sizing: border-box;
   text-align: center;
   background-color: $sidebar-background;
-
-  @media screen and (max-width: $tablet) {
-    width: 100%;
-    position: relative;
-  }
-
-  @media (min-width: $tablet) and (max-width: $desktop) {
-    width: 15rem;
-  }
 }
 
 .logo {
