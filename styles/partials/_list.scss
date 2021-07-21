@@ -1,4 +1,16 @@
 // Style for list template
+.list {
+  &-header {
+    color: $orange;
+    font-weight: $weight-bold;
+  }
+
+  &-label {
+    color: $orange;
+    font-weight: $weight-bold;
+  }
+}
+
 .entry {
   &-list {
     background-color: $main-background;
@@ -28,6 +40,7 @@
   }
 
   &-title {
+    color: $orange;
     margin: 0;
     padding: $space-normal $space-large 0;
   }

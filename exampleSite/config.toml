@@ -11,6 +11,7 @@ googleAnalytics = "UA-XXX-X"          # Google Analytics UA number
   logo = "/img/avatar.jpg"
   description = "A light responsive Hugo AMP theme for blogger"
   paginate = 10
+  cover = http://www.gravatar.com/avatar/3ba0414efae65f0b4e0f99719d5a02ee?s=150
 
   # Publisher
   ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
