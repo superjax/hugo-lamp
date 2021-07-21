@@ -31,7 +31,7 @@ button:hover {
 }
 
 .main {
-  margin-left: $sidebar_width;
+  margin-left: 5rem;
   padding: 1rem 2rem;
   max-width: 100%;
   min-height: 100vh;
@@ -71,9 +71,9 @@ button:hover {
 }
 
 .center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+}
