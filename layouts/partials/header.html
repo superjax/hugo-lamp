@@ -26,7 +26,10 @@
       {{ end }}
     </ul>
   </nav>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{"css/style.css"| relURL}}">
+  <link rel="stylesheet" href="{{"css/tabs.css"| relURL}}">
+
+  <!-- src= -->
 
   {{ partial "social.html" . }}
   {{ partial "mathjax_support.html" . }}
